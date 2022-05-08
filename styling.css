@@ -1,0 +1,196 @@
+
+body {
+    display: block;
+    
+   
+    font-size: 16px;
+    margin:0 auto;
+    font-family: 'Libre Baskerville', sans-serif;
+   
+}
+    body .background {
+        position: relative;
+    
+    }
+    .background-image {
+        position:absolute;
+        width: 100%;
+        height:auto;
+        opacity: 0.8;
+        z-index: -1;
+    
+    }
+ 
+.about-me-container {
+     display: inline-flex;
+     width: 100%;
+     justify-content: space-around;
+     margin-top: 5%;
+     position: relative;
+     
+    
+ 
+ }
+
+
+    nav {
+        display: inline-flex;
+        justify-content: space-between;
+        background: #97cba9;
+        width: 100%;
+        opacity: 0.8;
+        margin: 0% auto;
+       
+       
+    }
+
+        nav #logo {
+       
+            font-size: 1.25rem;
+    
+        }
+
+        nav  h2 {
+            padding-left: 2%;
+        }
+
+        nav ul {
+            display: inline-flex;
+            list-style: none;
+            width: 50%;
+            justify-content: space-around;
+            margin-top: auto;
+            margin-bottom: auto;
+            cursor:pointer;
+        }
+
+        .navigation-list li, .navigation-list:hover {
+            transition: .5s;
+            background-color: #dde0ab;
+            border-radius: 5%;
+            padding: 20%;
+            width: 100%;
+            display: inline-block;
+           
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+   
+
+    main {
+        max-width: 100%;
+        display: block;
+        
+        
+        
+     }
+      
+        
+
+        .about-me-container .personal-photo {
+        width: 30%;
+        border-radius: 5%;
+        }
+
+        .about-me-container .text {
+            width: 40%;
+           font-size: 1.25rem;
+           line-height: 1.50;
+           background-color: white;
+           opacity: 0.9;
+           text-align: center;
+           border-radius: 5%;
+          
+        }
+
+    .projects-container {
+        display: block;
+        max-width: 100%;
+        opacity: 0.9;
+        background-color: #dde0ab;
+        text-align: center;
+        margin-top: 5%;
+        
+        
+    }
+
+        .projects-list {
+            list-style: none;
+            font-size: 1.25rem;
+            line-height: 2;
+            max-width: 100%;
+            height:auto;
+            
+        }
+
+        .projects-list ul {
+            display:inline-block;
+            width: 20%;
+            
+        }
+        .projects-list li, .projects-list a {
+            
+            color: black;
+            text-decoration: none;
+        }
+
+       .projects-list-item:hover {
+            
+            color: #668ba4;
+            display: block;
+            transition: .5;
+            color: blue;
+
+           
+
+        }
+
+        
+    .skills-list {
+        display: block;
+        background-color: #68A7AD;
+        text-align: center;
+        margin-top: 5%;
+        opacity: 0.7;
+        
+        
+    }
+    
+
+        .skills-list-items span {
+            font-size: 4rem;;
+        }
+
+    .contact-details {
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: 10%;
+        font-size: 1rem;
+        background-color: white;
+        opacity: 0.9;
+        margin-top:5%;
+        
+    }
+
+        .contact-details h2 {
+            text-align: center;
+            font-size: 1rem;
+            color:#668ba4;
+        }
+
+        .contact-details-item {
+            display: block;
+        }
+        
+        
+        .icon-text {
+            display: block;
+            vertical-align: middle;
+            margin-bottom: 2%;
+        }
